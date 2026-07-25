@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Elemen Form</title>
+  </head>
+  <body>
+    <h1>Coba Elemen - elemen form pada HTML</h1>
+
+    <form>
+      <table cellpadding="3">
+        <tr>
+          <td align="right"><label for="nama">Nama</label></td>
+          <td>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan Nama"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="password">Password</label></td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Masukkan Password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="email">Email</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Masukkan Email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="number">Angka</label></td>
+          <td>
+            <input
+              type="number"
+              name="angka"
+              id="number"
+              min="0"
+              max="100"
+              step="5"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="date">Tanggal</label></td>
+          <td><input type="date" name="date" id="date" required /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="color">Pilih Warna</label></td>
+          <td><input type="color" name="color" id="color" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label for="url">URL</label></td>
+          <td>
+            <input type="url" name="url" id="url" placeholder="Masukkan URL" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="tel">Telelpon</label></td>
+          <td>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Masukkan Nomor Telepon"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="file">File</label></td>
+          <td><input type="file" name="file" id="file" required /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Kirim</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
